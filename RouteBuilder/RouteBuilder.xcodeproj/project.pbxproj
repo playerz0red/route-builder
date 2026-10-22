@@ -13,6 +13,7 @@
 
 /* Begin PBXFileReference section */
 		CE415C17308A0D4000A90ED6 /* RouteBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE415D88308A354500A90ED6 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = App.xcconfig; path = Config/App.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +40,7 @@
 		CE415C0E308A0D4000A90ED6 = {
 			isa = PBXGroup;
 			children = (
+				CE415D88308A354500A90ED6 /* App.xcconfig */,
 				CE415C19308A0D4000A90ED6 /* RouteBuilder */,
 				CE415C18308A0D4000A90ED6 /* Products */,
 			);
@@ -260,6 +262,7 @@
 		};
 		CE415C23308A0D4200A90ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE415D88308A354500A90ED6 /* App.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -268,6 +271,7 @@
 				DEVELOPMENT_TEAM = CJF7D46AQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +301,7 @@
 		};
 		CE415C24308A0D4200A90ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE415D88308A354500A90ED6 /* App.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +310,7 @@
 				DEVELOPMENT_TEAM = CJF7D46AQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

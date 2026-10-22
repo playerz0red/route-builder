@@ -1,0 +1,2 @@
+// Mac's LAN IP; see README. "//" starts a comment in xcconfig, hence $()
+API_BASE_URL = http:/$()/10.204.20.147:4000
