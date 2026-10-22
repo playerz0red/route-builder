@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "id": "stp_9001",
+      "name": "Valid Stop",
+      "address": "1 Test St",
+      "phone": "020-7946-0000",
+      "zone": "center",
+      "packages_max": 5,
+      "last_delivery_at": "2026-10-22T08:37:32.584Z"
+    },
+    {
+      "name": "No Id Stop",
+      "address": "2 Test St",
+      "phone": "020-7946-0001"
+    },
+    {
+      "id": "stp_9003",
+      "name": "",
+      "address": "3 Test St",
+      "phone": "020-7946-0002"
+    },
+    {
+      "id": "stp_9004",
+      "name": "Garbage Fields Stop",
+      "address": "4 Test St",
+      "phone": "020-7946-0003",
+      "packages_max": "abc",
+      "last_delivery_at": "yesterday"
+    }
+  ],
+  "page": 1
+}
